@@ -1,0 +1,45 @@
+{
+  "name": "test-node-hapi",
+  "version": "1.0.0",
+  "description": "App test with node and hapi",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toedio/test-node-hapi.git"
+  },
+  "keywords": [
+    "test",
+    "node",
+    "hapi",
+    "passport"
+  ],
+  "author": "Victor Ferreira da Silva <toedio@yahoo.com.br> (http://github.com/toedio)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toedio/test-node-hapi/issues"
+  },
+  "engines": {
+    "node": ">=0.10.28",
+    "npm": ">=1.4.28"
+  },
+  "homepage": "https://github.com/toedio/test-node-hapi#readme",
+  "dependencies": {
+    "async": "~0.9.0",
+    "chalk": "~1.0.0",
+    "connect-flash": "~0.1.1",
+    "connect-mongo": "~0.4.1",
+    "glob": "~4.0.5",
+    "hapi": "~16.1.1",
+    "lodash": "^4.17.4",
+    "mongoose": "~3.8.8"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.3.0"
+  }
+}
